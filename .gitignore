@@ -1,0 +1,33 @@
+# Python environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+*.env
+
+# Python and Streamlit artefacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.streamlit/
+
+# Dataset and derived files
+data/
+datasets/
+uploads/
+artifacts/
+outputs/
+results/
+models/
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+
+# Local tools and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
